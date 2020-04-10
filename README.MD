@@ -9,11 +9,17 @@ le .env avec mdp gmail n'est pas compris (formulaire de contacte ne marche qu'av
 pour lancer server.js, il faut nodejs, et npm install 
 
 
-Note: quand évaluation du travail finie;
-- ajouter boostrap
-- compléter cv lors de l'upload final
-- ajouter projets
+Note: quand évaluation du travail finie et upload final
+
 - refaire l'accueil
 - ajouter des metas pour l'upload final
-- utiliser ejs pour faire un système de template (moins de répétitions)
-- voir pour passer en vanillajs 
+- corriger pb footer
+- compléter cv lors de l'upload final
+
+Plus tard (non impératif) : 
+- passer de jquery à vanillajs
+- système de template ejs
+- passer la nav en simple jquery
+
+ plus tard:
+- ajouter projets

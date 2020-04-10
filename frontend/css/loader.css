@@ -5,6 +5,8 @@ this picture is removed when page finished loading with javascript,
 .no-js .se-pre-con { /*user has no javascript, won't display gif because js won't be able to remove*/
 	display: none;
 }
+
+
 .js .se-pre-con { /*styling loading animation*/
 	position: fixed;
 	left: 0px;
@@ -13,5 +15,9 @@ this picture is removed when page finished loading with javascript,
 	height: 100%;
 	z-index: 9999;
 	background: url("../img/loading.gif") center no-repeat #fff;
+	transform: scale(2);
 }
+
+
+
 

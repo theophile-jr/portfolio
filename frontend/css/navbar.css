@@ -1,13 +1,17 @@
 /*Navbar ------------------------------------*/
+
+
 /*NO JAVASCRIPT*/
-nav{
-	position : fixed;
+
+nav {
+	position: fixed;
 	background-color: #333;
-	width:100%;
-	top:0px;
+	width: 100%;
+	top: 0px;
 	font-size: 20px;
 	z-index: 999;
 }
+
 
 /*---------------*/
 
@@ -17,9 +21,11 @@ nav ul {
 	padding: 0;
 	overflow: hidden;
 }
+
 nav li {
 	float: left;
 }
+
 nav li a {
 	display: block;
 	color: white;
@@ -28,9 +34,7 @@ nav li a {
 	text-decoration: none;
 	font-family: 'Roboto', sans-serif;
 }
-nav li a:hover{
+
+nav li a:hover {
 	background-color: black;
 }
-
-
-

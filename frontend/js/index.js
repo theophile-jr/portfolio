@@ -36,7 +36,7 @@ class NavControl {
       this.shownavbar = true; //is the navbar displayed
       this.clicked = false; //has the user clicked on a button lately
       this.isscrolling; //is the user scrolling
-      $(document).on("click", "#hrefhome, #hrefprojects, #hrefcontact", function() { //add an event (click) on every link (a with attr href) and executes code when triggred
+      $(document).on("click", "#hrefhome, #hrefprojects, #hrefcontact", function(e) { //add an event (click) on every link (a with attr href) and executes code when triggred
           nav.clicked = true;
           console.log("clicked")
       });
