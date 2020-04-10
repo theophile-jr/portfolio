@@ -11,16 +11,21 @@ pour lancer server.js, il faut nodejs, et npm install
 
 ---------------------
 Note: quand évaluation du travail finie et upload final
-- refaire l'accueil
 - ajouter des metas pour l'upload final
-- corriger pb footer
+
 - compléter cv lors de l'upload final
 - rajouter les commentaires demandés
+- rajouter du flex css
+
+en attente : 
+- corriger pb footer -- stackoverflow
+
 
 Plus tard (non impératif) : 
 - passer de jquery à vanillajs
 - système de template ejs
 - passer la nav en simple jquery
+- check propreté du css
 
  plus tard:
 - ajouter projets
