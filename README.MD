@@ -9,12 +9,13 @@ le .env avec mdp gmail n'est pas compris (formulaire de contacte ne marche qu'av
 pour lancer server.js, il faut nodejs, et npm install 
 
 
+---------------------
 Note: quand évaluation du travail finie et upload final
-
 - refaire l'accueil
 - ajouter des metas pour l'upload final
 - corriger pb footer
 - compléter cv lors de l'upload final
+- rajouter les commentaires demandés
 
 Plus tard (non impératif) : 
 - passer de jquery à vanillajs
