@@ -1,0 +1,41 @@
+/*Correctly define body and html tags*/
+html, body{
+	height: 100%;
+	width: 100%;
+	margin : 0 auto;
+	padding : 0 auto;
+}
+body {
+	background: #292a2b;
+}
+
+/*Footer styling------------*/
+#githublogo , #instagram-logo{
+	width : 50px;
+	height: 50px;
+}
+footer{
+	height: 15%;
+	background-color: rgb(0, 0, 0);
+	color :white;
+}
+footer a{
+	text-decoration : underline;
+}
+
+
+.emptydiv{
+	width:100%;
+	height:100%;
+}
+
+h1{ /*editing h1 just to add margin on the top; in this way the navbar won't hide it!*/
+	margin-top: 25%;
+	margin-bottom : 25%;
+	text-align : center;
+	color: white;
+}
+a{
+	text-decoration: none;
+	color : white;
+}

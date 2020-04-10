@@ -1,0 +1,27 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Note: quand évaluation du travail finie;\r - ajouter bootstrap pour le responsive (transformer le site en mobile-friendly)\r - rajouter des images sur la partie accueil\r - faire un serveur express avec nodejs\r pour le formulaire de contacte.\r - ajouter les projets dans la section appropriées\r - compléter le cv quand upload final",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tifiloow/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tifiloow/portfolio/issues"
+  },
+  "homepage": "https://github.com/Tifiloow/portfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.6",
+    "winston": "^3.2.1"
+  }
+}

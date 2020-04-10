@@ -1,0 +1,17 @@
+/*Loader
+will display a gif when page is loading,
+this picture is removed when page finished loading with javascript,
+*/
+.no-js .se-pre-con { /*user has no javascript, won't display gif because js won't be able to remove*/
+	display: none;
+}
+.js .se-pre-con { /*styling loading animation*/
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url("../img/loading.gif") center no-repeat #fff;
+}
+

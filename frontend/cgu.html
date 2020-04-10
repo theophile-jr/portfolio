@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+	<!--Header / importing every css file; jquery and index.js-->
+	<title>Mon portfolio</title>
+	<link rel="icon" href="./img/favicon.ico" type="image/x-icon" /> <!--adding favicon-->
+	<link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+	<link href="./libs/fonts.css" rel="stylesheet">
+	<!--From google fonts!-->
+	<script src="./libs/jquery.min.js"></script>
+	<script src="./js/index.js"></script>
+	<link rel="stylesheet" href="./css/navbar.css">
+	<link rel="stylesheet" href="./css/loader.css">
+	<link rel="stylesheet" href="./css/cgu.css">
+	<link href="./libs/aos.css" rel="stylesheet">
+	<script src="./libs/aos.js"></script>
+</head>
+<!--Loader-->
+<div class="se-pre-con"></div>
+
+<body>
+	<!--Initiating aos for animation on scroll -->
+	<script>
+	AOS.init();
+	</script>
+	<header>
+		<!--Header, containing navbar-->
+		<nav class="navbar" id="navbar" data-aos="fade-right">
+			<ul>
+				<li><a href="index.html#accueil" id="hrefhome">Accueil</a></li>
+				<li><a href="index.html#projets" id="hrefprojects">Mes projets</a></li>
+				<li><a href="index.html#contact" id="hrefcontact">Me contacter</a></li>
+				<li><a href="cv.html">Mon CV</a></li>
+				<li><a href="cgu.html">CGU</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="terms">
+		<!--div containing the terms-->
+		<h1 data-aos="fade-right"><img src="./img/cgu-image.png" id="cgu-image" />Conditions générales d'utilisation</h1>
+		<!--H1; main header-->
+		<p>Ce site est réalisé par Théophile Jerôme-Rocher, avec html, css, javascript, et l'utilisation de jquery
+			<br> en l'utilisant, vous acceptez la possibilité qu'il y ait l'utilisation de cookies, de stockage d'information
+			<br> (ex : votre ip du côté serveur)</p>
+		<!--text-->
+		<h2 data-aos="fade-right">Vous acceptez:</h2>
+		<!--Level 2 header with animation followed by a list with numbers-->
+		<ol>
+			<li>Vous ne devez pas envoyer d'insultes par le formulaire de contact</li>
+			<li>Ne tentez pas de pirater le site </li>
+			<li>Vous acceptez la possibilité qu'il y ait des cookies</li>
+			<li>Vous acceptez qu'en cas d'acte illégal, peut importe lequel, je me doive de réagir</li>
+		</ol>
+		<h2 data-aos="fade-right">Légal:</h2>
+		<!--Level 2 header with animation followed by a list without numbers-->
+		<ul>
+			<li>Vous êtes responsable de vos actions sur ce site</li>
+			<li>Tout message envoyé par le formulaire de contacte doit être correcte</li>
+			<li>Peut importe l'acte, si vous sortez du cadre de la légalité, je devrai en tenir compte</li>
+		</ul>
+		<h4>Note : cette page a des inscriptions factices pour l'instant, celle-ci sera re-redigée voire renommée avant l'upload final</h4> </div>
+	<!--Footer-->
+	<footer>
+		<hr>
+		<p>Tout droit réservé, Théophile Jerôme-Rocher
+			<br> <a href="cgu.html">Conditions Générales D'utilisation</a>
+			<br>
+		</p>
+		<a href="https://github.com/tifiloow"><img src="img/github-logo.png" id="githublogo" alt="github logo" /></a>
+		<a href="https://www.instagram.com/theophile.jr/"><img src="img/instagram-logo.png" id="instagram-logo" alt="instagram logo"></a>
+	</footer>
+</body>
+
+</html>
