@@ -1,7 +1,14 @@
+Comment utiliser:
+- Ce projet a une partie frontend : /frontend
+- L'on peut lancer avec nodejs le serveur (installer nodejs; faire dans le cmd : npm install && node server.js)
+- on peut également lancer simplement en cliquant sur le index.html
+- ou lancer n'importe quel serveur http
+
+
+
 Note: quand évaluation du travail finie;
-- ajouter bootstrap pour le responsive (transformer le site en mobile-friendly)
-- rajouter des images sur la partie accueil
-- faire un serveur express avec nodejs
-pour le formulaire de contacte.
-- ajouter les projets dans la section appropriées
-- compléter le cv quand upload final
+- ajouter boostrap
+- compléter cv lors de l'upload final
+- ajouter projets
+- refaire l'accueil
+- ajouter des metas pour l'upload final
