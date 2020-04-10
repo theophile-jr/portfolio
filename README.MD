@@ -16,3 +16,4 @@ Note: quand évaluation du travail finie;
 - refaire l'accueil
 - ajouter des metas pour l'upload final
 - utiliser ejs pour faire un système de template (moins de répétitions)
+- voir pour passer en vanillajs 
