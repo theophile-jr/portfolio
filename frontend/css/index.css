@@ -31,16 +31,29 @@ body {
 	background: #292a2b;
 }
 
-.accueil {
-	background-image: url("../img/home-background.png");
-	background-repeat: no-repeat;
-	background-size: cover;
+@keyframes home-animation {
+	0%   { background-color: rgb(0,0,0); color: white; }
+	25%  { background-color: #23272A; color: white; }
+	50%  { background-color: rgb(32, 44, 88); color: rgb(170, 255, 255);; }
+	75% { background-color: #2C2F33; color: #99AAB5; }
+	100%   { background-color: rgb(0,0,0); color: white; }
 }
+
+.accueil {
+	/*background-image: url("../img/home-background.png");
+	background-repeat: no-repeat;
+	background-size: cover;*/
+	animation: home-animation 10s infinite;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+}
+
 
 .accueil h1 {
 	font-family: 'Bebas Neue', cursive;
 	text-align: center;
-	font-size: 70px;
+	font-size: 100px;
 	margin: 0;
 	padding: 0;
 }
@@ -58,6 +71,11 @@ a {
 	height: 30vh;
 }
 
+#chevron{
+	margin-left: auto;
+    margin-right: auto;
+	font-size: 40px;
+}
 
 /*------------------------*/
 
@@ -75,20 +93,25 @@ h2 {
 
 
 /*---Quote*/
+@keyframes border-pulsate {
+    0%   { border-color: rgba(0, 255, 255, 1); }
+    50%  { border-color: white }
+    100% { border-color: rgba(0, 255, 255, 1); }
+}
 
 .blockquote {
 	text-align: center;
 	text-decoration: bold;
 	font-weight: bold;
-	font-size: 30px;
+	font-size: 40px;
 	font-family: 'Roboto Condensed', sans-serif;
+	border-top: 5px solid cyan;
+    animation: border-pulsate 2s infinite;
 }
 
 #quote {
-	font-size: 60px;
+	font-size: 70px;
 }
-
-
 
 
 /*---mobile users*/
@@ -98,10 +121,13 @@ h2 {
 	.accueil {
 		margin-top: 100px;
 	}
-	.blockquote {
-		font-size: 20px;
+	#quote{
+		font-size: 50px;
 	}
-	#quote {
-		font-size: 40px;
+	.blockquote{
+		font-size: 30px;
+	}
+	.accueil h1 {
+		font-size: 70px;
 	}
 }
