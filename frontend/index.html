@@ -2,7 +2,6 @@
 <html class="no-js">
 
 <head>
-	<script src="./libs/jquery.min.js"></script>
 	<noscript> <!--Script used to handle aos for animations when user hasn't enabled javascript-->
         <style type="text/css">
             [data-aos] {
@@ -16,25 +15,27 @@
 	<link rel="icon" href="./img/favicon.ico" type="image/x-icon" /> <!--adding favicon-->
 	<link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
 	<!--Css-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="./libs/fonts.css" rel="stylesheet"> 	<!--From google fonts!-->
 	<link rel="stylesheet" href="./css/navbar.css">
 	<link rel="stylesheet" href="./css/index.css" />
 	<link rel="stylesheet" href="./css/loader.css">
 	<link rel="stylesheet" href="./css/contactform.css">
-	<link rel="stylesheet" href="./css/footer.css">  
+	<link rel="stylesheet" href="./css/footer.css">
 	<!--Javascript-->
-	<script src="./js/index.js"></script>
+	<script src="./libs/jquery.min.js"></script>
 	<script src="./js/contact.js"></script>
 	<link href="./libs/aos.css" rel="stylesheet">
 	<script src="./libs/aos.js"></script>
 	<script src="./libs/sweetalert.min.js"></script>
+	<script src="./js/index.js"></script> <!--Always last line to hide loading animation after the page is loaded-->
 
 
 </head>
 <!--Loader-->
 <div class="se-pre-con"></div>
 
-<body> 
+<body>
 	<!--init aos for animations-->
 	<script>
 	AOS.init();
@@ -54,18 +55,23 @@
 	<div class="accueil" id="accueil">
 		<!--Home div with picture and a quote-->
 		<div class="home-content">
-		<h1 data-aos="fade-right">Théophile Jerôme-Rocher</h1> <!--<img src="https://www.bing.com/th?id=OIP.woY1K6QW1Xbfp8iPWJFODQAAAA&pid=Api&rs=1" id="mainimg" alt="photo théophile accueil" />-->
+		<h1 data-aos="fade-right">Théophile Jérôme-Rocher</h1> <!--<img src="https://www.bing.com/th?id=OIP.woY1K6QW1Xbfp8iPWJFODQAAAA&pid=Api&rs=1" id="mainimg" alt="photo théophile accueil" />-->
 		<div class="blockquote">
-			<p><span id="quote">"  </span>Passionné d'informatique de 15ans, je m'intéresse à
+			<p><span id="quote">"  </span>Passionné d'informatique de 15 ans, je m'intéresse à
 				<br> la sécurité informatique et au développement, je me focalise actuellement sur le
 				<br> web avec nodejs<span id="quote">  "</span></p>
+				<a href="index.html#projets"><i class="fa fa-chevron-down" aria-hidden="true" id="homechevron"></i></a>
 		</div>
 	</div>
 	</div>
 	<div class="projets" id="projets">
 		<!--Projects div : actually empty because i don't have any projects-->
 		<h2 data-aos="fade-right">Projets <a href="https://github.com/tifiloow"><img src="img/github-logo.png" id="githublogo" alt="github logo"/></a></h2>
-		<h4>Coming soon...</h4> </div>
+		<h4 id="comingsoon">Projets en cours de réalisation...</h4>
+		<a href="#contact"><button id="#contactme">Besoin d'aide pour votre projet ? Contactez-moi !</button></a>
+	</div>
+
+
 	<div id="contact" class="contact-div">
 		<!--Contact div-->
 		<h2 data-aos="fade-right">Contactez-moi</h2>

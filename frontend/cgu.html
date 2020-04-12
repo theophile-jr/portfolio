@@ -2,7 +2,14 @@
 <html class="no-js">
 
 <head>
-	<script src="./libs/jquery.min.js"></script>
+	<noscript> <!--Script used to handle aos for animations when user hasn't enabled javascript-->
+        <style type="text/css">
+            [data-aos] {
+                opacity: 1 !important;
+                transform: translate(0) scale(1) !important;
+            }
+        </style>
+    </noscript>
 	<title>Théophile JR - CGU</title>
 	<meta id="viewport" name="viewport" content ="width=device-width" />
 	<link rel="icon" href="./img/favicon.ico" type="image/x-icon" /> <!--adding favicon-->
@@ -15,8 +22,9 @@
 	<link rel="stylesheet" href="./css/footer.css">
 	<link href="./libs/aos.css" rel="stylesheet">
 	<!--JS-->
-	<script src="./js/index.js"></script>
+	<script src="./libs/jquery.min.js"></script>
 	<script src="./libs/aos.js"></script>
+	<script src="./js/index.js"></script> <!--Always last line to hide loading animation after the page is loaded-->
 </head>
 <!--Loader-->
 <div class="se-pre-con"></div>

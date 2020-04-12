@@ -40,6 +40,7 @@ h2 {
 	background-image: url("../img/cgu-background.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	overflow: auto;
 }
 
 #cgu-image {
