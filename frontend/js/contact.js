@@ -26,9 +26,9 @@ $(window).load(function() {
                 },
                 error: function() {
                     swal ( "Oups" ,  "Le message n'a pas pu être envoyé :(" ,  "error" )
-                }            
+                }
             });
-            
+
         }else{
             swal ( "Oups" ,  "Veuillez correctement compléter le formulaire de contact !" ,  "error" )
         }

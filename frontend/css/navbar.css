@@ -3,7 +3,7 @@
 
 /*NO JAVASCRIPT*/
 
-nav {
+nav { /*setting position fixed for navbar, and styling it*/
 	position: fixed;
 	background-color: #333;
 	width: 100%;
@@ -13,7 +13,7 @@ nav {
 }
 
 
-/*---------------*/
+/*------Styling nav's content---------*/
 
 nav ul {
 	list-style-type: none;
@@ -26,7 +26,7 @@ nav li {
 	float: left;
 }
 
-nav li a {
+nav li a { /*Styling nav's links (a elements)*/
 	display: block;
 	color: white;
 	text-align: center;
@@ -35,6 +35,6 @@ nav li a {
 	font-family: 'Roboto', sans-serif;
 }
 
-nav li a:hover {
+nav li a:hover { /*styling navbar's li when mouse hovering*/
 	background-color: black;
 }

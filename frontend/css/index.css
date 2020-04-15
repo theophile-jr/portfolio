@@ -1,57 +1,54 @@
 /*defining the divs containing most part of the page*/
 
-html {
+html, body {
 	/*Correctly define body and html tags*/
 	height: 100%;
 	width: 100%;
 	margin: 0 auto;
 	padding: 0 auto;
 	scroll-behavior: smooth;
+
 }
 
 
-
+/*setting width and height of divs*/
 .accueil,
 .projets {
 	width: 100%;
-	height: 100%;
+	min-height: 100%;
 }
 
 
 .accueil {
-	/*TO let the navbar place*/
+	/*TO let the navbar place we add margin*/
 	margin-top: 50px;
 	overflow: hidden;
 }
 
-body {
-	height: 100%;
-	width: 100%;
-	margin: 0 !important;
-	padding: 0 !important;
-	background: #292a2b;
-}
 
-@keyframes home-animation {
+
+@keyframes background-animation { /*kreyframe changing background color of the accueil div*/
 	0%   { background-color: rgb(0,0,0); color: white; }
 	25%  { background-color: #4B87EE; color: white; }
 	50%  { background-color: #1D2973; color: #46D7AC; }
 	75% { background-color: #2C2F33; color: #99AAB5; }
 	100%   { background-color: rgb(0,0,0); color: white; }
 }
-
-.accueil {
-	/*background-image: url("../img/home-background.png");
-	background-repeat: no-repeat;
-	background-size: cover;*/
-	animation: home-animation 10s infinite;
+body {/*styling body*/
+	height: 100%;
+	width: 100%;
+	margin: 0 !important;
+	padding: 0 !important;
+	animation: background-animation 10s infinite;
+}
+.accueil { /*styling accueil div*/
 	display: flex;
 	align-items:center;
 	justify-content: center;
 }
 
 
-.accueil h1 {
+.accueil h1 { /*styling main heading*/
 	font-family: 'Bebas Neue', cursive;
 	text-align: center;
 	font-size: 100px;
@@ -59,21 +56,13 @@ body {
 	padding: 0;
 }
 
-a {
+a { /*styling links*/
 	text-decoration: none;
 	color: white;
 }
 
-.accueil img {
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-	width: 25vh;
-	height: 30vh;
-}
 
-
-@keyframes chevron-pulsate {
+@keyframes chevron-pulsate { /*keyframe animating the chevron redirecting to contact form*/
     25%   {
 			display:inline-block;
     -webkit-transform:scale(2,1); /* Safari and Chrome */
@@ -90,14 +79,14 @@ a {
 	transform:scale(1); /* W3C */ }
 }
 
-#homechevron{
+#homechevron{ /*styling chevron*/
 	animation: chevron-pulsate 2s infinite;
 	font-size: 50px;
 }
-#homechevron:hover{
+#homechevron:hover{ /*styling chevron when mouse hovering*/
 	font-weight: bold;
 }
-/*------------------------*/
+
 
 .projets {
 	background-color: #46D7AC;
@@ -112,37 +101,37 @@ h2 {
 	color: white;
 }
 
-#comingsoon{
+#comingsoon{ /*styling the text informing that i'm creating projects*/
  color: black;
  font-size: 50px;
  font-weight: bold;
  font-family: 'Roboto Condensed', sans-serif;
  text-align : center;
 }
-.projets button{
+.projets button{ /*styling the button redirecting to contact form*/
 	margin: 0 auto;
 	display: block;
-	font-size: 30px;
+	font-size: 20px;
 	background-color: #72DCF6;
 	border: 7px solid #8292F1;
 	border-radius: 5px;
-	width: 55%;
+	width: auto;
 	min-height: 50px;
 	font-weight: bold;
 	transition: font-size 0.5s;
 }
-.projets button:hover{
-	font-size: 35px;
+.projets button:hover{ /*styling the button redirecting to contact form when mouse hovering*/
+	font-size: 25px;
 	border-radius: 7px;
 }
-/*---Quote*/
+/*--- styling accueil's Quote*/
 @keyframes border-anim {
     0%   { border-color: rgba(0, 255, 255, 1); }
     50%  { border-color: #46D7AC }
     100% { border-color: rgba(0, 255, 255, 1); }
 }
 
-.blockquote {
+.blockquote { /*the div containing the whole quote*/
 	text-align: center;
 	text-decoration: bold;
 	font-weight: bold;
@@ -152,24 +141,26 @@ h2 {
     animation: border-anim 2s infinite;
 }
 
-#quote {
+#quote { /*styling the : " */
 	font-size: 70px;
 }
 
 
 /*---mobile users*/
 @media screen and (max-width: 640px) {
-	/*giving some space for the navbar when user opens page*/
 	#quote{
-		font-size: 50px;
+		font-size: 40px;
 	}
 	.blockquote{
-		font-size: 30px;
+		font-size: 25px;
 	}
 	.accueil h1 {
 		font-size: 70px;
 	}
 	#homechevron{
 		display: none;
+	}
+	.accueil{
+		margin-top: 100px;
 	}
 }

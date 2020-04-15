@@ -8,18 +8,19 @@ body {
 	padding: 0 auto;
 }
 
-body {
+body { /* set body's background*/
 	background: #292a2b;
 }
 
 
 /*--------------*/
 
-a {
+a { /*styling links*/
 	text-decoration: none;
 	color: white;
 }
 
+/*styling headings*/
 h1 {
 	font-family: 'Bebas Neue', cursive;
 	text-align: center;
@@ -32,9 +33,9 @@ h2 {
 	text-align: center;
 	font-size: 30px;
 }
-
-.terms {
-	margin-top: 50px;
+/*-----*/
+.terms { /*styling main div, the one displaying terms*/
+	margin-top: 50px; /*add margin to let navbar some place*/
 	width: 100%;
 	min-height: 100%;
 	background-image: url("../img/cgu-background.jpg");
@@ -43,13 +44,13 @@ h2 {
 	overflow: auto;
 }
 
-#cgu-image {
+#cgu-image { /*styling image*/
 	border-bottom: solid black 3px;
 	width: 60px;
 	height: 60px;
 }
 
-.terms p {
+.terms p { /*styling text*/
 	text-decoration: underline;
 	font-style: italic;
 	font-weight: bold;
@@ -58,8 +59,9 @@ h2 {
 
 
 @media screen and (max-width: 640px) {
-	/*giving some space for the navbar when user opens page*/
+	/*when user is on mobile*/
 	.terms {
-		margin-top: 100px;
+		margin-top: 100px; /*when user is on mobile, add more margin, because the navbar is increasing it's height*/
+	}
 	}
 }

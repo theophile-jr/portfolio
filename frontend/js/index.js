@@ -1,6 +1,3 @@
-
-
-
 $("html").removeClass("no-js") //adding or removing js class of html, used in css
 $("html").addClass("js")
 //hide loading animation when page fully loaded
@@ -8,6 +5,7 @@ $(window).load(function() {
   $(".se-pre-con").hide();
 
 });
+
 
 
 
@@ -48,8 +46,8 @@ $(document).ready(function() { //executing this code only when page fully loaded
   window.onscroll = function() {
 
       var currentScrollPos = window.pageYOffset;
-      if (prevScrollpos > currentScrollPos) {
-              this.console.log("scrolling up and didn't click")
+         if (prevScrollpos > currentScrollPos) {
+              this.console.log("scrolling up")
               shownav("show")
           }
        else {

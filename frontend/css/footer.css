@@ -1,10 +1,11 @@
+/*styling two logos in the footer*/
 #githublogo,
 #instagram-logo {
 	width: 50px;
 	height: 50px;
 }
 
-footer {
+footer { /*Styling footer*/
 	background-color: rgb(0, 0, 0);
 	color: white;
 	margin : 0;
@@ -12,6 +13,6 @@ footer {
 	overflow: auto;
 }
 
-footer a {
+footer a { /*Styling footer's link*/
 	text-decoration: underline;
 }
