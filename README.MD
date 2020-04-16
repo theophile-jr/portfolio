@@ -12,14 +12,9 @@ pour lancer server.js, il faut nodejs, et npm install
 ------------------------------------------
 Note: quand évaluation du travail finie et upload final
 - relire les textes sur le site en général
-- remplacer font awesome
+- faire le cv
+- ajouter projets
 
 Plus tard (non impératif) :
 - passer de jquery à vanillajs
-- passer js en vanilla
-- faire le cv
-
-------------------------------------------
- plus tard:
-- ajouter projets
-- compléter cv lors de l'upload final (carroussels)
+- remplacer font awesome (to use only one font)
