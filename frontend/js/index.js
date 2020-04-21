@@ -7,9 +7,6 @@ $(window).load(function() {
 });
 
 
-
-
-
 /*javascript for the navbar*/
 var getBrowserWidth = function() { //detecting user's screen size
   if (window.innerWidth < 768) {
