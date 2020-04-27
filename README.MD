@@ -18,3 +18,4 @@ Note: quand évaluation du travail finie et upload final
 Plus tard (non impératif) :
 - passer de jquery à vanillajs
 - remplacer font awesome (to use only one font)
+- refaire un peu le design (rajouter elements, style...)
