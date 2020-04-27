@@ -2,7 +2,6 @@
 
 html,
 body {
-	height: 100%;
 	width: 100%;
 	margin: 0 auto;
 	padding: 0 auto;
@@ -37,7 +36,6 @@ h2 {
 .terms { /*styling main div, the one displaying terms*/
 	margin-top: 50px; /*add margin to let navbar some place*/
 	width: 100%;
-	min-height: 100%;
 	background-image: url("../img/cgu-background.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
